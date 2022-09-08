@@ -7,14 +7,17 @@
  */
 int main(void)
 {
-	int a;
-	float b;
-	double c;
-	char d;
+	char a;
+	int b;
+	long int c;
+	long long d;
+	float e;
+
 	/* sizeof evalutes the size of a variable */
-	printf("size of int: %zu bytes\n", sizeof(a));
-	printf("size of float: %zu bytes\n", sizeof(b));
-	printf("size of double: %zu bytes\n", sizeof(c));
-	printf("size of char: %zu byte\n", sizeof(d));
+	printf("size of a char: %zu byte(s)\n", sizeof(a));
+	printf("size of an int: %zu byte(s)\n", sizeof(b));
+	printf("size of a long int: %zu byte(s)\n", sizeof(c));
+	printf("size of a long long int: %zu byte(s)\n", sizeof(d));
+	printf("size of a float: %zu byte(s)\n", sizeof(e));
 return (0);
 }
