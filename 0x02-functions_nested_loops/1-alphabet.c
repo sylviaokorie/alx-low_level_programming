@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main -entry point printing bytes
+ * print_alphabet - function to print abc
  *
  * Return: Alway 0 (success)
  *
