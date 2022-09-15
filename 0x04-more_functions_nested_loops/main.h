@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H_INCLUDED
-#define HOLBERTON_H_INCLUDED
+#ifndef _HOLBERTON_H_
+#define _HOLBERTON_H_
 
 int _isupper(int c);
 int _isdigit(int c);
