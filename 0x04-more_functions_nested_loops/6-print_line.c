@@ -2,6 +2,7 @@
 
 /**
  * print_line - print straight line
+ *@n: integer value
  * Return: 0
  *
  */
