@@ -9,18 +9,18 @@
 char *_strdup(char *str)
 {
 	char *dap;
-	int i, j;
+	int i, j, k;
 
 	if (str == NULL)
 		return (NULL);
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		;
+		k++;
 	}
-	dap = (char *) malloc(sizeof(char) * str[i]);
+	dap = (char *) malloc(sizeof(char) * k);
 	if (dap == NULL)
 		return (NULL);
-	for (j = 0; str[j] != '\0'; j++)
+	for (j = 0; j <= k; j++)
 	{
 		dap[j] = str[j];
 	}
